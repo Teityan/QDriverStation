@@ -169,7 +169,6 @@ int main (int argc, char* argv[])
 #else
     QApplication::setAttribute (Qt::AA_DisableHighDpiScaling);
 #endif
-
     /* Set application info */
     QApplication::setApplicationName    (APP_DSPNAME);
     QApplication::setOrganizationName   (APP_COMPANY);
@@ -180,6 +179,10 @@ int main (int argc, char* argv[])
     QString arguments;
     QApplication app (argc, argv);
 
+    QTranslator translator;
+    translator.load("test_ja");
+        //trans_ja.qmというファイルのファイル名のみを渡す。
+    app.installTranslator(&translator);
     /* Read command line arguments */
     if (app.arguments().count() >= 2)
         arguments = app.arguments().at (1);
