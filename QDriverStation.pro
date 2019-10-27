@@ -107,6 +107,5 @@ OTHER_FILES += $$PWD/qml/Widgets/*.qml
 OTHER_FILES += $$PWD/qml/MainWindow/*.qml
 
 TRANSLATIONS = \
-test_ja.ts \
 test_ja.qm
 
