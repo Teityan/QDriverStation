@@ -11,11 +11,9 @@ You can find the online documentation of the QDriverStation and its sub-projects
 
 ### Project Status [2019]
 
-Unfortunately, I do not participate in any FRC/FIRST team anymore, so I cannot test any changes of the QDriverStation/LibDS with FRC hardware.
-
-The project has not received any significant updates since 2017, thus the QDriverStation does not work with 2018 robots. However, due to the design of the LibDS, it should be possible to support newer communication protocols without too much effort.
-
-If you are interested in continuing development of this project, please contact me so I can add you to the "FRC Utilities" organization, be sure to have a copy of [Wireshark](https://www.wireshark.org/) installed and a pencil and notebook to reverse-engineer the FRC Comm. Protocols :wink:
+I am participating in FRC Team 6909 SAKURA Tempesta and are currently working on the development of QDriverStation and LibDS.
+QDrivarStation corrected with FRC roboRIO_2019_v14 worked, but the joystick button assignment seems to be wrong.
+Also, the port changed from time to time and sometimes worked in 2015 and 2014.
 
 ### Install notes
 
